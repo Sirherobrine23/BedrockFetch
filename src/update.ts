@@ -27,12 +27,14 @@ async function createRelease(tagName: string, secret: string = process.env.GITHU
       });
     }
     console.log("Uploding %s", name);
+    const fileInfo = await fs.lstat(filePath);
     const { data } = await octokit.rest.repos.uploadReleaseAsset({
       release_id: release.id,
       owner: "The-Bds-Maneger",
       repo: "BedrockFetch",
       name: name,
       data: createReadStream(filePath) as any as string,
+      headers: {"content-length": fileInfo.size},
       mediaType: {
         format: "application/octet-stream"
       },
