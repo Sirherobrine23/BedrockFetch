@@ -8,7 +8,7 @@ import { createReadStream } from "node:fs";
 import path from "node:path";
 const allPath = path.join(__dirname, "../versions/all.json");
 
-async function createRelease(tagName: string, secret: string = process.env.GITHUB_SECRET) {
+async function createRelease(tagName: string, secret: string = process.env.GITHUB_SECRET||process.env.GITHUB_TOKEN) {
   const octokit = getOctokit(secret);
   const releases = (await octokit.rest.repos.listReleases({owner: "The-Bds-Maneger", repo: "BedrockFetch"})).data;
   let release = releases.find(release => release.tag_name === tagName);

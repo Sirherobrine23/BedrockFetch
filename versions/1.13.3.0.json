@@ -4,10 +4,10 @@
   "latest": false,
   "url": {
     "win32": {
-      "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.13.3.0.zip"
+      "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.3.0/win32_x64_bedrock-server-1.13.3.0.zip"
     },
     "linux": {
-      "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.13.3.0.zip"
+      "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.3.0/linux_x64_bedrock-server-1.13.3.0.zip"
     }
   }
 }

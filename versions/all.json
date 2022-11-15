@@ -5,10 +5,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.6.1.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.6.1.0/win32_x64_bedrock-server-1.6.1.0.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.6.1.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.6.1.0/linux_x64_bedrock-server-1.6.1.0.zip"
       }
     }
   },
@@ -18,10 +18,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.7.0.13.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.7.0.13/win32_x64_bedrock-server-1.7.0.13.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.7.0.13.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.7.0.13/linux_x64_bedrock-server-1.7.0.13.zip"
       }
     }
   },
@@ -31,10 +31,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.8.0.24.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.8.0.24/win32_x64_bedrock-server-1.8.0.24.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.8.0.24.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.8.0.24/linux_x64_bedrock-server-1.8.0.24.zip"
       }
     }
   },
@@ -44,10 +44,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.8.1.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.8.1.2/win32_x64_bedrock-server-1.8.1.2.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.8.1.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.8.1.2/linux_x64_bedrock-server-1.8.1.2.zip"
       }
     }
   },
@@ -57,10 +57,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.9.0.15.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.9.0.15/win32_x64_bedrock-server-1.9.0.15.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.9.0.15.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.9.0.15/linux_x64_bedrock-server-1.9.0.15.zip"
       }
     }
   },
@@ -70,10 +70,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.10.0.7.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.10.0.7/win32_x64_bedrock-server-1.10.0.7.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.10.0.7.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.10.0.7/linux_x64_bedrock-server-1.10.0.7.zip"
       }
     }
   },
@@ -83,10 +83,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.11.0.23.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.0.23/win32_x64_bedrock-server-1.11.0.23.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.11.0.23.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.0.23/linux_x64_bedrock-server-1.11.0.23.zip"
       }
     }
   },
@@ -96,10 +96,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.11.1.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.1.2/win32_x64_bedrock-server-1.11.1.2.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.11.1.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.1.2/linux_x64_bedrock-server-1.11.1.2.zip"
       }
     }
   },
@@ -109,10 +109,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.11.2.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.2.1/win32_x64_bedrock-server-1.11.2.1.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.11.2.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.2.1/linux_x64_bedrock-server-1.11.2.1.zip"
       }
     }
   },
@@ -122,10 +122,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.11.4.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.4.2/win32_x64_bedrock-server-1.11.4.2.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.11.4.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.11.4.2/linux_x64_bedrock-server-1.11.4.2.zip"
       }
     }
   },
@@ -135,10 +135,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.12.0.28.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.12.0.28/win32_x64_bedrock-server-1.12.0.28.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.12.0.28.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.12.0.28/linux_x64_bedrock-server-1.12.0.28.zip"
       }
     }
   },
@@ -148,10 +148,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.12.1.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.12.1.1/win32_x64_bedrock-server-1.12.1.1.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.12.1.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.12.1.1/linux_x64_bedrock-server-1.12.1.1.zip"
       }
     }
   },
@@ -161,10 +161,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.13.0.34.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.0.34/win32_x64_bedrock-server-1.13.0.34.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.13.0.34.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.0.34/linux_x64_bedrock-server-1.13.0.34.zip"
       }
     }
   },
@@ -174,10 +174,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.13.1.5.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.1.5/win32_x64_bedrock-server-1.13.1.5.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.13.1.5.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.1.5/linux_x64_bedrock-server-1.13.1.5.zip"
       }
     }
   },
@@ -187,10 +187,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.13.2.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.2.0/win32_x64_bedrock-server-1.13.2.0.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.13.2.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.2.0/linux_x64_bedrock-server-1.13.2.0.zip"
       }
     }
   },
@@ -200,10 +200,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.13.3.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.3.0/win32_x64_bedrock-server-1.13.3.0.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.13.3.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.13.3.0/linux_x64_bedrock-server-1.13.3.0.zip"
       }
     }
   },
@@ -213,10 +213,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.14.0.9.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.0.9/win32_x64_bedrock-server-1.14.0.9.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.0.9.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.0.9/linux_x64_bedrock-server-1.14.0.9.zip"
       }
     }
   },
@@ -226,10 +226,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.14.1.4.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.1.4/win32_x64_bedrock-server-1.14.1.4.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.1.4.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.1.4/linux_x64_bedrock-server-1.14.1.4.zip"
       }
     }
   },
@@ -239,10 +239,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.14.20.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.20.1/win32_x64_bedrock-server-1.14.20.1.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.20.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.20.1/linux_x64_bedrock-server-1.14.20.1.zip"
       }
     }
   },
@@ -252,10 +252,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.14.21.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.21.0/win32_x64_bedrock-server-1.14.21.0.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.21.0.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.21.0/linux_x64_bedrock-server-1.14.21.0.zip"
       }
     }
   },
@@ -265,10 +265,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.14.30.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.30.2/win32_x64_bedrock-server-1.14.30.2.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.30.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.30.2/linux_x64_bedrock-server-1.14.30.2.zip"
       }
     }
   },
@@ -278,10 +278,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.14.32.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.32.1/win32_x64_bedrock-server-1.14.32.1.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.32.1.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.32.1/linux_x64_bedrock-server-1.14.32.1.zip"
       }
     }
   },
@@ -291,10 +291,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.14.60.5.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.60.5/win32_x64_bedrock-server-1.14.60.5.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.14.60.5.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.14.60.5/linux_x64_bedrock-server-1.14.60.5.zip"
       }
     }
   },
@@ -304,10 +304,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.0.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.0.2/win32_x64_bedrock-server-1.16.0.2.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.0.2.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.0.2/linux_x64_bedrock-server-1.16.0.2.zip"
       }
     }
   },
@@ -317,10 +317,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.1.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.1.02/win32_x64_bedrock-server-1.16.1.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.1.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.1.02/linux_x64_bedrock-server-1.16.1.02.zip"
       }
     }
   },
@@ -330,10 +330,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.20.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.20.03/win32_x64_bedrock-server-1.16.20.03.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.20.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.20.03/linux_x64_bedrock-server-1.16.20.03.zip"
       }
     }
   },
@@ -343,10 +343,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.40.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.40.02/win32_x64_bedrock-server-1.16.40.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.40.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.40.02/linux_x64_bedrock-server-1.16.40.02.zip"
       }
     }
   },
@@ -356,10 +356,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.100.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.100.04/win32_x64_bedrock-server-1.16.100.04.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.100.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.100.04/linux_x64_bedrock-server-1.16.100.04.zip"
       }
     }
   },
@@ -369,10 +369,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.200.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.200.02/win32_x64_bedrock-server-1.16.200.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.200.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.200.02/linux_x64_bedrock-server-1.16.200.02.zip"
       }
     }
   },
@@ -382,10 +382,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.201.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.201.02/win32_x64_bedrock-server-1.16.201.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.201.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.201.02/linux_x64_bedrock-server-1.16.201.02.zip"
       }
     }
   },
@@ -395,10 +395,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.201.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.201.03/win32_x64_bedrock-server-1.16.201.03.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.201.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.201.03/linux_x64_bedrock-server-1.16.201.03.zip"
       }
     }
   },
@@ -408,10 +408,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.210.05.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.210.05/win32_x64_bedrock-server-1.16.210.05.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.210.05.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.210.05/linux_x64_bedrock-server-1.16.210.05.zip"
       }
     }
   },
@@ -421,10 +421,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.210.06.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.210.06/win32_x64_bedrock-server-1.16.210.06.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.210.06.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.210.06/linux_x64_bedrock-server-1.16.210.06.zip"
       }
     }
   },
@@ -434,10 +434,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.220.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.220.02/win32_x64_bedrock-server-1.16.220.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.220.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.220.02/linux_x64_bedrock-server-1.16.220.02.zip"
       }
     }
   },
@@ -447,10 +447,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.16.221.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.221.01/win32_x64_bedrock-server-1.16.221.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.221.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.221.01/linux_x64_bedrock-server-1.16.221.01.zip"
       }
     }
   },
@@ -460,10 +460,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.0.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.0.03/win32_x64_bedrock-server-1.17.0.03.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.0.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.0.03/linux_x64_bedrock-server-1.17.0.03.zip"
       }
     }
   },
@@ -473,10 +473,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.1.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.1.01/win32_x64_bedrock-server-1.17.1.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.1.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.1.01/linux_x64_bedrock-server-1.17.1.01.zip"
       }
     }
   },
@@ -486,10 +486,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.2.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.2.01/win32_x64_bedrock-server-1.17.2.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.2.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.2.01/linux_x64_bedrock-server-1.17.2.01.zip"
       }
     }
   },
@@ -499,10 +499,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.10.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.10.04/win32_x64_bedrock-server-1.17.10.04.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.10.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.10.04/linux_x64_bedrock-server-1.17.10.04.zip"
       }
     }
   },
@@ -512,10 +512,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.11.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.11.01/win32_x64_bedrock-server-1.17.11.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.11.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.11.01/linux_x64_bedrock-server-1.17.11.01.zip"
       }
     }
   },
@@ -525,10 +525,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.30.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.30.04/win32_x64_bedrock-server-1.17.30.04.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.30.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.30.04/linux_x64_bedrock-server-1.17.30.04.zip"
       }
     }
   },
@@ -538,10 +538,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.31.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.31.01/win32_x64_bedrock-server-1.17.31.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.31.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.31.01/linux_x64_bedrock-server-1.17.31.01.zip"
       }
     }
   },
@@ -551,10 +551,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.32.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.32.02/win32_x64_bedrock-server-1.17.32.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.32.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.32.02/linux_x64_bedrock-server-1.17.32.02.zip"
       }
     }
   },
@@ -564,10 +564,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.33.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.33.01/win32_x64_bedrock-server-1.17.33.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.33.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.33.01/linux_x64_bedrock-server-1.17.33.01.zip"
       }
     }
   },
@@ -577,10 +577,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.34.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.34.02/win32_x64_bedrock-server-1.17.34.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.34.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.34.02/linux_x64_bedrock-server-1.17.34.02.zip"
       }
     }
   },
@@ -590,10 +590,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.40.06.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.40.06/win32_x64_bedrock-server-1.17.40.06.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.40.06.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.40.06/linux_x64_bedrock-server-1.17.40.06.zip"
       }
     }
   },
@@ -603,10 +603,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.41.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.41.01/win32_x64_bedrock-server-1.17.41.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.41.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.17.41.01/linux_x64_bedrock-server-1.17.41.01.zip"
       }
     }
   },
@@ -616,10 +616,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.0.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.0.02/win32_x64_bedrock-server-1.18.0.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.41.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.0.02/linux_x64_bedrock-server-1.17.41.01.zip"
       }
     }
   },
@@ -629,10 +629,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.1.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.1.02/win32_x64_bedrock-server-1.18.1.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.1.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.1.02/linux_x64_bedrock-server-1.18.1.02.zip"
       }
     }
   },
@@ -642,10 +642,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.2.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.2.03/win32_x64_bedrock-server-1.18.2.03.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.2.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.2.03/linux_x64_bedrock-server-1.18.2.03.zip"
       }
     }
   },
@@ -655,10 +655,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.11.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.11.01/win32_x64_bedrock-server-1.18.11.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.11.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.11.01/linux_x64_bedrock-server-1.18.11.01.zip"
       }
     }
   },
@@ -668,10 +668,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.12.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.12.01/win32_x64_bedrock-server-1.18.12.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.12.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.12.01/linux_x64_bedrock-server-1.18.12.01.zip"
       }
     }
   },
@@ -681,10 +681,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.30.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.30.04/win32_x64_bedrock-server-1.18.30.04.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.30.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.30.04/linux_x64_bedrock-server-1.18.30.04.zip"
       }
     }
   },
@@ -694,10 +694,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.31.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.31.04/win32_x64_bedrock-server-1.18.31.04.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.31.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.31.04/linux_x64_bedrock-server-1.18.31.04.zip"
       }
     }
   },
@@ -707,10 +707,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.32.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.32.02/win32_x64_bedrock-server-1.18.32.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.32.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.32.02/linux_x64_bedrock-server-1.18.32.02.zip"
       }
     }
   },
@@ -720,10 +720,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.18.33.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.33.02/win32_x64_bedrock-server-1.18.33.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.18.33.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.18.33.02/linux_x64_bedrock-server-1.18.33.02.zip"
       }
     }
   },
@@ -733,10 +733,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.1.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.1.01/win32_x64_bedrock-server-1.19.1.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.1.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.1.01/linux_x64_bedrock-server-1.19.1.01.zip"
       }
     }
   },
@@ -746,10 +746,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.2.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.2.02/win32_x64_bedrock-server-1.19.2.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.2.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.2.02/linux_x64_bedrock-server-1.19.2.02.zip"
       }
     }
   },
@@ -759,10 +759,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.10.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.10.03/win32_x64_bedrock-server-1.19.10.03.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.10.03.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.10.03/linux_x64_bedrock-server-1.19.10.03.zip"
       }
     }
   },
@@ -772,10 +772,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.10.20.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.10.20/win32_x64_bedrock-server-1.19.10.20.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.10.20.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.10.20/linux_x64_bedrock-server-1.19.10.20.zip"
       }
     }
   },
@@ -785,10 +785,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.11.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.11.01/win32_x64_bedrock-server-1.19.11.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.11.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.11.01/linux_x64_bedrock-server-1.19.11.01.zip"
       }
     }
   },
@@ -798,10 +798,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.20.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.20.02/win32_x64_bedrock-server-1.19.20.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.20.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.20.02/linux_x64_bedrock-server-1.19.20.02.zip"
       }
     }
   },
@@ -811,10 +811,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.21.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.21.01/win32_x64_bedrock-server-1.19.21.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.21.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.21.01/linux_x64_bedrock-server-1.19.21.01.zip"
       }
     }
   },
@@ -824,10 +824,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.22.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.22.01/win32_x64_bedrock-server-1.19.22.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.22.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.22.01/linux_x64_bedrock-server-1.19.22.01.zip"
       }
     }
   },
@@ -837,10 +837,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.30.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.30.04/win32_x64_bedrock-server-1.19.30.04.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.30.04.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.30.04/linux_x64_bedrock-server-1.19.30.04.zip"
       }
     }
   },
@@ -850,10 +850,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.31.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.31.01/win32_x64_bedrock-server-1.19.31.01.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.31.01.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.31.01/linux_x64_bedrock-server-1.19.31.01.zip"
       }
     }
   },
@@ -863,10 +863,10 @@
     "latest": false,
     "url": {
       "win32": {
-        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.40.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.40.02/win32_x64_bedrock-server-1.19.40.02.zip"
       },
       "linux": {
-        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.40.02.zip"
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.40.02/linux_x64_bedrock-server-1.19.40.02.zip"
       }
     }
   },
