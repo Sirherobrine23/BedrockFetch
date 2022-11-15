@@ -32,7 +32,10 @@ async function createRelease(tagName: string, secret: string = process.env.GITHU
       owner: "The-Bds-Maneger",
       repo: "BedrockFetch",
       name: name,
-      data: createReadStream(filePath) as any as string
+      data: createReadStream(filePath) as any as string,
+      mediaType: {
+        format: "application/octet-stream"
+      },
     });
     console.log("File %s, download url: '%s'", name, data.browser_download_url);
     return data;
