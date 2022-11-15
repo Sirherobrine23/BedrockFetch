@@ -2,3 +2,4 @@ node_modules/
 src/**/*.d.ts
 src/**/*.js
 versions/**/*.html
+downloadFiles/**/*

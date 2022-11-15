@@ -1,15 +1,11 @@
 name: Find new versions
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */6 * * *"
   push:
     branches:
       - main
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
   findVersion:
@@ -21,6 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         name: Checkout code
+        with:
+          persist-credentials: true
+          ref: main
+          fetch-depth: 2
+          submodules: true
 
       - name: Setup Node JS
         uses: actions/setup-node@v3.5.1
@@ -28,16 +29,33 @@ jobs:
           node-version: 18.x
 
       - name: Install Node Packages
-        run: npm install -d --no-save
+        run: npm ci
 
-      - name: Find and Update database
+      - name: Find
+        timeout-minutes: 2
         run: npm run updateVesion
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      # Create pull request to update version in main branch
+      - uses: peter-evans/create-pull-request@v4
+        name: Create Pull Request
+        continue-on-error: true
+        if: env.UPLOAD == 'true'
         with:
-          path: "./"
+          commit-message: New Minecraft bedrock server release (${{ env.VERSION }})
+          delete-branch: true
+          assignees: SirHerobrine23
+          reviewers: SirHerobrine23
+          branch: version_update_${{ env.VERSION }}
+          title: new release version v${{ env.VERSION }}
+          body: Auto update version, created with GitHub Actions
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+      - name: "Upload server"
+        if: env.UPLOAD == 'true'
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        with:
+          name: "Bedrock server ${{ env.VERSION }}"
+          tag_name: "${{ env.VERSION }}"
+          body: "None"
+          files: "./downloadFiles/*"

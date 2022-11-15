@@ -28,22 +28,20 @@ export async function find(): Promise<bedrockSchema|void> {
     }
     return mount;
   }, {} as bedrockSchema["url"]);
+
+  // Object file
   const anyZip = objURLs.win32?.x64||objURLs.linux?.x64;
   if (!anyZip) throw new Error("cannot get url");
-  const [, mcpeVersion] = anyZip.match(/\/[a-zA-Z-_]+([0-9\.]+).zip$/)||[];
-  const zip = await httpRequestLarge.zipDownload(anyZip);
-  const mcpeDate = await new Promise<Date>(async resolve => {
-    for (const entry of zip.getEntries()) {
-      if (entry.entryName.startsWith("bedrock_server")) return resolve(entry.header.time);
-    };
-    return resolve(new Date());
-  });
+
+  // get version
+  let mcpeVersion = anyZip;
+  const regReplace = /((^http[s]:\/\/[a-z\.]+\/bin-[a-zA-Z0-9]+\/)|(\.zip$)|([a-zA-Z\-]+))/;
+  while (regReplace.test(mcpeVersion)) mcpeVersion = mcpeVersion.replace(regReplace, "");
   if (!mcpeVersion) throw new Error("No version found");
+
   return {
     version: mcpeVersion,
-    date: mcpeDate,
+    date: (((await httpRequestLarge.zipDownload(anyZip)).getEntries()).find(file => file.entryName.startsWith("bedrock_server")))?.header?.time||new Date(),
     url: objURLs
   };
 }
-
-find().then(console.log)
