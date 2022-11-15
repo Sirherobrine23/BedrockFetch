@@ -11,7 +11,13 @@ export type bedrockSchema = {
 };
 
 export async function find(): Promise<bedrockSchema|void> {
-  const minecraftUrls = (await httpRequest.urls({url: "https://www.minecraft.net/en-us/download/server/bedrock"})).filter(Link => /bin-.*\.zip/.test(Link));
+  const minecraftUrls = (await httpRequest.urls({
+    url: "https://www.minecraft.net/en-us/download/server/bedrock",
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
+    }
+  })).filter(Link => /bin-.*\.zip/.test(Link));
   const objURLs = minecraftUrls.reduce((mount, url) => {
     if (/darwin/.test(url)) {
       if (!mount.darwin) mount.darwin = {};
