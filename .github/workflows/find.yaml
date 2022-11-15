@@ -34,6 +34,8 @@ jobs:
       - name: Find
         timeout-minutes: 2
         run: npm run updateVesion
+        env:
+          GITHUB_SECRET: ${{ github.secret }}
 
       # Create pull request to update version in main branch
       - uses: peter-evans/create-pull-request@v4
