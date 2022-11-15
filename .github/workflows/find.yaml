@@ -1,0 +1,43 @@
+name: Find new versions
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  findVersion:
+    runs-on: ubuntu-latest
+    name: "server ${{ matrix.platform }}"
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout code
+
+      - name: Setup Node JS
+        uses: actions/setup-node@v3.5.1
+        with:
+          node-version: 18.x
+
+      - name: Install Node Packages
+        run: npm install -d --no-save
+
+      - name: Find and Update database
+        run: npm run updateVesion
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "./"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

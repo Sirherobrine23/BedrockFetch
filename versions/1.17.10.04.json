@@ -1,0 +1,13 @@
+{
+  "version": "1.17.10.04",
+  "date": "2021-06-22T00:12:34.000Z",
+  "latest": false,
+  "url": {
+    "win32": {
+      "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.10.04.zip"
+    },
+    "linux": {
+      "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.10.04.zip"
+    }
+  }
+}

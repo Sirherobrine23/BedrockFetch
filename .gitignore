@@ -1,7 +1,4 @@
-# Ignore node addon
-*.node
-
-# Ingore node folders
 node_modules/
-*.tgz
-dist/
+src/**/*.d.ts
+src/**/*.js
+versions/**/*.html

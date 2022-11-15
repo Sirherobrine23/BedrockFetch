@@ -1,1 +1,1 @@
-# base_typescript
+Auto update minecraft bedrock versions
