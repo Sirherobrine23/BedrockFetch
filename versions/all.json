@@ -869,5 +869,17 @@
         "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.40.02.zip"
       }
     }
+  },
+  {
+    "version": "1.19.41.01",
+    "date": "2022-11-01T16:26:36.000Z",
+    "url": {
+      "win32": {
+        "x64": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.41.01.zip"
+      },
+      "linux": {
+        "x64": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.41.01.zip"
+      }
+    }
   }
 ]
