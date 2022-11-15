@@ -35,7 +35,7 @@ jobs:
         timeout-minutes: 2
         run: npm run updateVesion
         env:
-          GITHUB_SECRET: ${{ github.secret }}
+          GITHUB_SECRET: ${{ secrets.GITHUB_TOKEN }}
 
       # Create pull request to update version in main branch
       - uses: peter-evans/create-pull-request@v4
