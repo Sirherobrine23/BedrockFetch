@@ -11,7 +11,7 @@ export type bedrockSchema = {
 };
 
 export async function find(): Promise<bedrockSchema|void> {
-  const minecraftUrls = (await httpRequest.urls("https://www.minecraft.net/en-us/download/server/bedrock")).filter(Link => /bin-.*\.zip/.test(Link));
+  const minecraftUrls = (await httpRequest.urls("https://www.minecraft.net/en-us/download/server/bedrock")).filter(Link => /bin-.*\.zip/.test(Link) && !(/preview/).test(Link));
   const objURLs = minecraftUrls.reduce((mount, url) => {
     if (/darwin/.test(url)) {
       if (!mount.darwin) mount.darwin = {};
