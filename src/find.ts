@@ -1,4 +1,4 @@
-import { httpRequest, httpRequestLarge } from "@the-bds-maneger/core-utils";
+import { httpRequest } from "@the-bds-maneger/core-utils";
 
 export type bedrockSchema = {
   version: string,
@@ -10,38 +10,31 @@ export type bedrockSchema = {
   }
 };
 
-export async function find(): Promise<bedrockSchema|void> {
+find().then(console.log).catch(err => console.log(err?.response.body?.toString()||err));
+export async function find() {
   const minecraftUrls = (await httpRequest.urls("https://www.minecraft.net/en-us/download/server/bedrock")).filter(Link => /bin-.*\.zip/.test(Link) && !(/preview/).test(Link));
   const objURLs = minecraftUrls.reduce((mount, url) => {
+    // get version
+    let mcpeVersion = url;
+    const regReplace = /((^http[s]:\/\/[a-z\.]+\/bin-[a-zA-Z0-9]+\/)|(\.zip$)|([a-zA-Z\-]+))/;
+    while (regReplace.test(mcpeVersion)) mcpeVersion = mcpeVersion.replace(regReplace, "");
+    if (!mcpeVersion) return mount;
+    if (!mount[mcpeVersion]) mount[mcpeVersion] = {};
     if (/darwin/.test(url)) {
-      if (!mount.darwin) mount.darwin = {};
-      if (/aarch|arm64/.test(url)) mount.darwin.arm64 = url;
-      else mount.darwin.x64 = url
+      if (!mount[mcpeVersion].darwin) mount[mcpeVersion].darwin = {};
+      if (/aarch|arm64/.test(url)) mount[mcpeVersion].darwin.arm64 = url;
+      else mount[mcpeVersion].darwin.x64 = url
     } else if (/linux/.test(url)) {
-      if (!mount.linux) mount.linux = {};
-      if (/aarch|arm64/.test(url)) mount.linux.arm64 = url;
-      else mount.linux.x64 = url
+      if (!mount[mcpeVersion].linux) mount[mcpeVersion].linux = {};
+      if (/aarch|arm64/.test(url)) mount[mcpeVersion].linux.arm64 = url;
+      else mount[mcpeVersion].linux.x64 = url
     } else {
-      if (!mount.win32) mount.win32 = {};
-      if (/aarch|arm64/.test(url)) mount.win32.arm64 = url;
-      else mount.win32.x64 = url
+      if (!mount[mcpeVersion].win32) mount[mcpeVersion].win32 = {};
+      if (/aarch|arm64/.test(url)) mount[mcpeVersion].win32.arm64 = url;
+      else mount[mcpeVersion].win32.x64 = url
     }
     return mount;
-  }, {} as bedrockSchema["url"]);
+  }, {} as {version: bedrockSchema["url"]});
 
-  // Object file
-  const anyZip = objURLs.win32?.x64||objURLs.linux?.x64;
-  if (!anyZip) throw new Error("cannot get url");
-
-  // get version
-  let mcpeVersion = anyZip;
-  const regReplace = /((^http[s]:\/\/[a-z\.]+\/bin-[a-zA-Z0-9]+\/)|(\.zip$)|([a-zA-Z\-]+))/;
-  while (regReplace.test(mcpeVersion)) mcpeVersion = mcpeVersion.replace(regReplace, "");
-  if (!mcpeVersion) throw new Error("No version found");
-
-  return {
-    version: mcpeVersion,
-    date: (((await httpRequestLarge.zipDownload(anyZip)).getEntries()).find(file => file.entryName.startsWith("bedrock_server")))?.header?.time||new Date(),
-    url: objURLs
-  };
+  return objURLs;
 }
