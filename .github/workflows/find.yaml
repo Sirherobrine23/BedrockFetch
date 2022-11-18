@@ -50,14 +50,3 @@ jobs:
           branch: version_update_${{ env.VERSION }}
           title: new release version v${{ env.VERSION }}
           body: Auto update version, created with GitHub Actions
-
-      - name: "Upload server"
-        if: env.UPLOAD == 'true'
-        uses: softprops/action-gh-release@v1
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        with:
-          name: "Bedrock server ${{ env.VERSION }}"
-          tag_name: "${{ env.VERSION }}"
-          body: "None"
-          files: "./downloadFiles/*"
