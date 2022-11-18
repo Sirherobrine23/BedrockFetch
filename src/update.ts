@@ -8,13 +8,15 @@ import { createReadStream } from "node:fs";
 import path from "node:path";
 const allPath = path.join(__dirname, "../versions/all.json");
 
-async function createRelease(tagName: string, secret: string = process.env.GITHUB_SECRET||process.env.GITHUB_TOKEN) {
+const secret = process.env.GITHUB_SECRET||process.env.GITHUB_TOKEN;
+async function createRelease(options: {tagName: string, secret?: string, prerelease?: boolean}) {
+  options = {secret, prerelease: false, ...options};
   const octokit = getOctokit(secret);
   const releases = (await octokit.rest.repos.listReleases({owner: "The-Bds-Maneger", repo: "BedrockFetch"})).data;
-  let release = releases.find(release => release.tag_name === tagName);
+  let release = releases.find(release => release.tag_name === options.tagName);
   if (!release) {
     console.info("Creating relase!");
-    release = (await octokit.rest.repos.createRelease({owner: "The-Bds-Maneger", repo: "BedrockFetch", tag_name: tagName})).data;
+    release = (await octokit.rest.repos.createRelease({owner: "The-Bds-Maneger", repo: "BedrockFetch", tag_name: options.tagName, prerelease: options.prerelease||false})).data;
   }
   async function uploadFile(filePath: string, name: string = path.basename(filePath)) {
     const fileExists = (await octokit.rest.repos.listReleaseAssets({release_id: release.id, owner: "The-Bds-Maneger", repo: "BedrockFetch"})).data.find(file => file.name === name);
@@ -48,31 +50,31 @@ async function createRelease(tagName: string, secret: string = process.env.GITHU
 main().then(console.log);
 async function main() {
   const all: bedrockSchema[] = JSON.parse(await fs.readFile(allPath, "utf8"));
-  const data = await find();
-  if (!data) return null;
-  // Add to all
-  if (!all.some(version => version.version === data.version)) {
-    // Write env
-    if (process.env.GITHUB_ENV) {
-      const githubEnv = path.resolve(process.env.GITHUB_ENV);
-      await fs.writeFile(githubEnv, `VERSION=${data.version}\nUPLOAD=true`);
-      // 'downloadFiles' path
-      const onSave = path.resolve(__dirname, "../downloadFiles");
-      if (!await extendFs.exists(onSave)) await fs.mkdir(onSave, {recursive: true});
-      const rel = await createRelease(data.version);
-      for (const platform of Object.keys(data.url)) {
-        for (const keyName of Object.keys(data.url[platform])) {
-          const downloadData = {url: data.url[platform][keyName], name: `${platform}_${keyName}_${path.basename((new URL(data.url[platform][keyName])).pathname)}`};
-          const filePath = await httpRequestLarge.saveFile({url: downloadData.url, filePath: path.join(onSave, downloadData.name)});
-          data.url[platform][keyName] = (await rel.uploadFile(filePath)).browser_download_url;
+  const findData = await find();
+  for (const data of findData) {
+    // Add to all
+    if (!all.some(version => version.version === data.version)) {
+      // Write env
+      if (process.env.GITHUB_ENV) {
+        const githubEnv = path.resolve(process.env.GITHUB_ENV);
+        await fs.writeFile(githubEnv, `VERSION=${data.version}\nUPLOAD=true`);
+        // 'downloadFiles' path
+        const onSave = path.resolve(__dirname, "../downloadFiles");
+        if (!await extendFs.exists(onSave)) await fs.mkdir(onSave, {recursive: true});
+        const rel = await createRelease({tagName: data.version, prerelease: data.release === "preview"});
+        for (const platform of Object.keys(data.url)) {
+          for (const keyName of Object.keys(data.url[platform])) {
+            const downloadData = {url: data.url[platform][keyName], name: `${platform}_${keyName}_${path.basename((new URL(data.url[platform][keyName])).pathname)}`};
+            const filePath = await httpRequestLarge.saveFile({url: downloadData.url, filePath: path.join(onSave, downloadData.name)});
+            data.url[platform][keyName] = (await rel.uploadFile(filePath)).browser_download_url;
+          }
         }
       }
+      all.push(data);
     }
-
-    all.push(data);
+    const filePath = path.join(__dirname, "../versions", `${data.version}.json`);
+    await fs.writeFile(filePath, JSON.stringify(data, null, 2));
   }
-  const filePath = path.join(__dirname, "../versions", `${data.version}.json`);
-  await fs.writeFile(filePath, JSON.stringify(data, null, 2));
   await fs.writeFile(allPath, JSON.stringify(all.sort((a, b) => compareVersions(a.version, b.version)), null, 2));
-  return data;
+  return findData;
 }
