@@ -73,7 +73,7 @@ async function main() {
       all.push(data);
     }
     const filePath = path.join(__dirname, "../versions", `${data.version}.json`);
-    await fs.writeFile(filePath, JSON.stringify(data, null, 2));
+    if (!await extendFs.exists(filePath)) await fs.writeFile(filePath, JSON.stringify(data, null, 2));
   }
   await fs.writeFile(allPath, JSON.stringify(all.sort((a, b) => compareVersions(a.version, b.version)), null, 2));
   return findData;
