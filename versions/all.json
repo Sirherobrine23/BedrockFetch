@@ -909,6 +909,19 @@
     }
   },
   {
+    "version": "1.19.51.01",
+    "date": "2022-12-07T19:34:10.000Z",
+    "release": "stable",
+    "url": {
+      "win32": {
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.51.01/win32_x64_bedrock-server-1.19.51.01.zip"
+      },
+      "linux": {
+        "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.51.01/linux_x64_bedrock-server-1.19.51.01.zip"
+      }
+    }
+  },
+  {
     "version": "1.19.60.20",
     "date": "2022-11-22T20:07:32.000Z",
     "release": "preview",
