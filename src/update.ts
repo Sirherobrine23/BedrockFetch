@@ -12,18 +12,18 @@ const secret = process.env.GITHUB_SECRET||process.env.GITHUB_TOKEN;
 async function createRelease(options: {tagName: string, secret?: string, prerelease?: boolean}) {
   options = {secret, prerelease: false, ...options};
   const octokit = getOctokit(secret);
-  const releases = (await octokit.rest.repos.listReleases({owner: "The-Bds-Maneger", repo: "BedrockFetch"})).data;
+  const releases = (await octokit.rest.repos.listReleases({owner: "Sirherobrine23", repo: "BedrockFetch"})).data;
   let release = releases.find(release => release.tag_name === options.tagName);
   if (!release) {
     console.info("Creating relase!");
-    release = (await octokit.rest.repos.createRelease({owner: "The-Bds-Maneger", repo: "BedrockFetch", tag_name: options.tagName, prerelease: options.prerelease||false})).data;
+    release = (await octokit.rest.repos.createRelease({owner: "Sirherobrine23", repo: "BedrockFetch", tag_name: options.tagName, prerelease: options.prerelease||false})).data;
   }
   async function uploadFile(filePath: string, name: string = path.basename(filePath)) {
-    const fileExists = (await octokit.rest.repos.listReleaseAssets({release_id: release.id, owner: "The-Bds-Maneger", repo: "BedrockFetch"})).data.find(file => file.name === name);
+    const fileExists = (await octokit.rest.repos.listReleaseAssets({release_id: release.id, owner: "Sirherobrine23", repo: "BedrockFetch"})).data.find(file => file.name === name);
     if (fileExists) {
       console.info("Deleting %s", name);
       await octokit.rest.repos.deleteReleaseAsset({
-        owner: "The-Bds-Maneger",
+        owner: "Sirherobrine23",
         repo: "BedrockFetch",
         asset_id: fileExists.id
       });
@@ -32,7 +32,7 @@ async function createRelease(options: {tagName: string, secret?: string, prerele
     const fileInfo = await fs.lstat(filePath);
     const { data } = await octokit.rest.repos.uploadReleaseAsset({
       release_id: release.id,
-      owner: "The-Bds-Maneger",
+      owner: "Sirherobrine23",
       repo: "BedrockFetch",
       name: name,
       data: createReadStream(filePath) as any as string,
