@@ -1076,5 +1076,18 @@
         "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.19.70.21/linux_x64_bedrock-server-1.19.70.21.zip"
       }
     }
+  },
+  {
+    "version": "1.19.70.22",
+    "date": "2023-02-07T00:34:38.000Z",
+    "release": "preview",
+    "url": {
+      "win32": {
+        "x64": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.19.70.22/win32_x64_bedrock-server-1.19.70.22.zip"
+      },
+      "linux": {
+        "x64": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.19.70.22/linux_x64_bedrock-server-1.19.70.22.zip"
+      }
+    }
   }
 ]
