@@ -1,0 +1,13 @@
+{
+  "version": "1.19.70.26",
+  "date": "2023-02-27T22:46:20.000Z",
+  "release": "preview",
+  "url": {
+    "win32": {
+      "x64": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.19.70.26/win32_x64_bedrock-server-1.19.70.26.zip"
+    },
+    "linux": {
+      "x64": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.19.70.26/linux_x64_bedrock-server-1.19.70.26.zip"
+    }
+  }
+}
