@@ -1372,5 +1372,18 @@
         "x64": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.0.24/linux_x64_bedrock-server-1.20.0.24.zip"
       }
     }
+  },
+  {
+    "version": "1.20.0.25",
+    "date": "2023-05-16T18:55:42.000Z",
+    "release": "preview",
+    "url": {
+      "win32": {
+        "x64": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.0.25/win32_x64_bedrock-server-1.20.0.25.zip"
+      },
+      "linux": {
+        "x64": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.0.25/linux_x64_bedrock-server-1.20.0.25.zip"
+      }
+    }
   }
 ]
