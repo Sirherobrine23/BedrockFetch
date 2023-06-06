@@ -1,13 +1,19 @@
 {
   "version": "1.16.221.01",
   "date": "2021-04-15T02:14:46.000Z",
-  "latest": false,
+  "release": "oficial",
   "url": {
     "win32": {
-      "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.221.01/win32_x64_bedrock-server-1.16.221.01.zip"
+      "x64": {
+        "zip": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.16.221.01/win32_x64_bedrock-server-1.16.221.01.zip",
+        "tgz": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.16.221.01/win32_x64_bedrock-server-1.16.221.01.tgz"
+      }
     },
     "linux": {
-      "x64": "https://github.com/The-Bds-Maneger/BedrockFetch/releases/download/1.16.221.01/linux_x64_bedrock-server-1.16.221.01.zip"
+      "x64": {
+        "zip": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.16.221.01/linux_x64_bedrock-server-1.16.221.01.zip",
+        "tgz": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.16.221.01/linux_x64_bedrock-server-1.16.221.01.tgz"
+      }
     }
   }
 }

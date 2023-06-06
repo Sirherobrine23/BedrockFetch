@@ -1,27 +1,31 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "ES2019",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "strict": false,
     "noUnusedLocals": true,
+    "isolatedModules": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "allowJs": true,
-    "paths": {
-      "@/*": [
-        "./node_modules/@*"
-      ]
-    }
+    "composite": true,
+    "lib": [
+      "ESNext"
+    ]
   },
-  "include": [
-    "src/**/*"
-  ],
   "exclude": [
-    "node_modules/",
-    "test/"
-  ]
+    "**/*.test.ts",
+    "**/test*/**",
+    "node_modules/"
+  ],
+  "ts-node": {
+    "files": true,
+    "esm": true,
+    "transpileOnly": true
+  }
 }
