@@ -152,6 +152,25 @@
     }
   },
   {
+    "version": "1.20.0.01",
+    "date": "2023-05-17T02:50:00.000Z",
+    "release": "oficial",
+    "url": {
+      "linux": {
+        "x64": {
+          "zip": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.0.01/linux_x64_bedrock-server-1.20.0.01.zip",
+          "tgz": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.0.01/linux_x64_bedrock-server-1.20.0.01.tgz"
+        }
+      },
+      "win32": {
+        "x64": {
+          "zip": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.0.01/win32_x64_bedrock-server-1.20.0.01.zip",
+          "tgz": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.0.01/win32_x64_bedrock-server-1.20.0.01.tgz"
+        }
+      }
+    }
+  },
+  {
     "version": "1.19.83.01",
     "date": "2023-05-12T09:41:54.000Z",
     "release": "oficial",
