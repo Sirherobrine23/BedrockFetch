@@ -10,13 +10,14 @@ on:
 jobs:
   findVersion:
     runs-on: ubuntu-latest
-    env:
-      UPLOAD: "false"
-      VERSION: "0.1.0"
     permissions:
+      id-token: write
       pull-requests: write
       issues: write
       contents: write
+    env:
+      UPLOAD: "false"
+      VERSION: "0.1.0"
     steps:
       - uses: actions/checkout@v3
         name: Checkout code
@@ -39,6 +40,7 @@ jobs:
         run: npm run updateVesion
         env:
           GITHUB_SECRET: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Create pull request to update version in main branch
       - uses: peter-evans/create-pull-request@v4
