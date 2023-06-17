@@ -2,11 +2,9 @@ import { http } from "@sirherobrine23/http";
 import AdmZip from "adm-zip";
 import { compareVersions } from "compare-versions";
 import { createWriteStream } from "node:fs";
-import fs from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import streamConsumer from "node:stream/promises";
-import tar from "tar";
 
 export type bedrockSchema = {
   version: string,
@@ -63,28 +61,21 @@ export async function find() {
     return mount;
   }, {});
   const data: bedrockSchema[] = [];
+
   await Promise.all(Object.keys(objURLs).map(async version => {
     let release: any;
     const versionData = objURLs[version];
     await Promise.all(keys(versionData).map(platform => keys(versionData[platform]).map(async arch => {
       const fileUrl = new URL(versionData[platform][arch].zip);
-      const tmpFile = versionData[platform][arch].zip = path.join(tmpdir(), `${platform}_${arch}_` + path.basename(fileUrl.pathname));
-      const folderPath = tmpFile.slice(0, -(path.extname(tmpFile).length));
-      const tgzPath = versionData[platform][arch].tgz = folderPath + ".tgz";
-      await streamConsumer.pipeline(await http.streamRequest(fileUrl), createWriteStream(tmpFile));
-      await new Promise<void>((done, reject) => (new AdmZip(tmpFile)).extractAllToAsync(folderPath, true, true, err => err ? reject(err) : done()));
-      await tar.create({
-        gzip: true,
-        file: tgzPath,
-        cwd: folderPath,
-      }, await fs.readdir(folderPath));
-      await fs.rm(folderPath, { recursive: true, force: true });
+      const filePath = versionData[platform][arch].zip = path.join(tmpdir(), `${platform}_${arch}_` + path.basename(fileUrl.pathname));
+      console.log("Downloading %O on %O path", fileUrl.toString(), filePath);
+      await streamConsumer.pipeline(await http.streamRequest(fileUrl), createWriteStream(filePath));
       release = ((/preview/).test(fileUrl.toString())) ? "preview" : "oficial";
     })).flat(2));
     const ff = keys(versionData).map(plt => keys(versionData[plt]).map(arch => versionData[plt][arch])).flat(3).at(0).zip;
     const zip = new AdmZip(ff);
     const bedrockInfo = zip.getEntries().find(file => file.name.startsWith("bedrock_server"));
-    data.push({
+    if (bedrockInfo) data.push({
       version: version,
       date: bedrockInfo.header.time,
       release,

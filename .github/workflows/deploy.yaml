@@ -4,15 +4,11 @@ on:
     branches:
       - main
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+permissions: write-all
 
 jobs:
   findVersion:
     runs-on: ubuntu-latest
-    name: "server ${{ matrix.platform }}"
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
