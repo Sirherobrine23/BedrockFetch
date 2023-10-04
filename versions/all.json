@@ -1,5 +1,24 @@
 [
   {
+    "version": "1.20.40.24",
+    "date": "2023-10-02T21:25:06.000Z",
+    "release": "preview",
+    "url": {
+      "linux": {
+        "x64": {
+          "zip": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.40.24/linux_x64.zip",
+          "tgz": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.40.24/linux_x64.tgz"
+        }
+      },
+      "win32": {
+        "x64": {
+          "zip": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.40.24/win32_x64.zip",
+          "tgz": "https://github.com/Sirherobrine23/BedrockFetch/releases/download/1.20.40.24/win32_x64.tgz"
+        }
+      }
+    }
+  },
+  {
     "version": "1.20.40.23",
     "date": "2023-09-25T22:22:36.000Z",
     "release": "preview",
